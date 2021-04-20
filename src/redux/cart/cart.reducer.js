@@ -6,7 +6,7 @@ const INITIAL_STATE = {
   cartItems: []
 };
 
-const cartReducer = (state = INITIAL_STATE, action) => { //state is the previous state or the INITIAL_STATE if previous state = null
+const cartReducer = (state = INITIAL_STATE, action) => { //state is the previous state or the INITIAL_STATE if previous state = null, action is object with keys: type and payload
   switch (action.type) {
     case CartActionTypes.TOGGLE_CART_HIDDEN:
       return {
