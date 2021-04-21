@@ -9,7 +9,7 @@ import {selectCartItems} from '../../redux/cart/cart.selectors';
 import {toggleCartHidden} from '../../redux/cart/cart.actions';
 
 import './cart-dropdown.styles.scss';
-import FormInput from '../form-input/form-input.component';
+//import FormInput from '../form-input/form-input.component';
 
 const CartDropdown = ({cartItems, history, dispatch}) => (
   <div className='cart-dropdown'>
